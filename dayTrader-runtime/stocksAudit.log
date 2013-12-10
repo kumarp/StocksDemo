@@ -1,0 +1,238 @@
+<object-stream>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>helloWorld [1]</activationId>
+  <rule>helloWorld</rule>
+  <declarations></declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>2</factId>
+  <objectToString>com.rhc.stock.StockQuote@7a10d90b</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>3</factId>
+  <objectToString>com.rhc.stock.StockDay@68199fc8</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.RuleFlowLogEvent>
+  <type>8</type>
+  <processId>com.rhc.drools.test</processId>
+  <processName>dayTraderFlow</processName>
+  <processInstanceId>1</processInstanceId>
+</org.drools.audit.event.RuleFlowLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <type>24</type>
+  <processId>com.rhc.drools.test</processId>
+  <processName>dayTraderFlow</processName>
+  <processInstanceId>1</processInstanceId>
+  <nodeId>1</nodeId>
+  <nodeName>Start</nodeName>
+  <nodeInstanceId>0</nodeInstanceId>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <type>26</type>
+  <processId>com.rhc.drools.test</processId>
+  <processName>dayTraderFlow</processName>
+  <processInstanceId>1</processInstanceId>
+  <nodeId>1</nodeId>
+  <nodeName>Start</nodeName>
+  <nodeInstanceId>0</nodeInstanceId>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <type>24</type>
+  <processId>com.rhc.drools.test</processId>
+  <processName>dayTraderFlow</processName>
+  <processInstanceId>1</processInstanceId>
+  <nodeId>3</nodeId>
+  <nodeName>Determine Action (Buy/Sell)</nodeName>
+  <nodeInstanceId>1</nodeInstanceId>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowGroupLogEvent>
+  <type>12</type>
+  <groupName>determineAction</groupName>
+  <size>0</size>
+</org.drools.audit.event.RuleFlowGroupLogEvent>
+<org.drools.audit.event.RuleFlowGroupLogEvent>
+  <type>13</type>
+  <groupName>determineAction</groupName>
+  <size>0</size>
+</org.drools.audit.event.RuleFlowGroupLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <type>25</type>
+  <processId>com.rhc.drools.test</processId>
+  <processName>dayTraderFlow</processName>
+  <processInstanceId>1</processInstanceId>
+  <nodeId>3</nodeId>
+  <nodeName>Determine Action (Buy/Sell)</nodeName>
+  <nodeInstanceId>1</nodeInstanceId>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <type>27</type>
+  <processId>com.rhc.drools.test</processId>
+  <processName>dayTraderFlow</processName>
+  <processInstanceId>1</processInstanceId>
+  <nodeId>1</nodeId>
+  <nodeName>Start</nodeName>
+  <nodeInstanceId>0</nodeInstanceId>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <type>25</type>
+  <processId>com.rhc.drools.test</processId>
+  <processName>dayTraderFlow</processName>
+  <processInstanceId>1</processInstanceId>
+  <nodeId>1</nodeId>
+  <nodeName>Start</nodeName>
+  <nodeInstanceId>0</nodeInstanceId>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowLogEvent>
+  <type>9</type>
+  <processId>com.rhc.drools.test</processId>
+  <processName>dayTraderFlow</processName>
+  <processInstanceId>1</processInstanceId>
+</org.drools.audit.event.RuleFlowLogEvent>
+<org.drools.audit.event.RuleFlowGroupLogEvent>
+  <type>14</type>
+  <groupName>determineAction</groupName>
+  <size>0</size>
+</org.drools.audit.event.RuleFlowGroupLogEvent>
+<org.drools.audit.event.RuleFlowGroupLogEvent>
+  <type>15</type>
+  <groupName>determineAction</groupName>
+  <size>0</size>
+</org.drools.audit.event.RuleFlowGroupLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <type>26</type>
+  <processId>com.rhc.drools.test</processId>
+  <processName>dayTraderFlow</processName>
+  <processInstanceId>1</processInstanceId>
+  <nodeId>3</nodeId>
+  <nodeName>Determine Action (Buy/Sell)</nodeName>
+  <nodeInstanceId>1</nodeInstanceId>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <type>24</type>
+  <processId>com.rhc.drools.test</processId>
+  <processName>dayTraderFlow</processName>
+  <processInstanceId>1</processInstanceId>
+  <nodeId>4</nodeId>
+  <nodeName>Determine Price</nodeName>
+  <nodeInstanceId>2</nodeInstanceId>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowGroupLogEvent>
+  <type>12</type>
+  <groupName>determinePrice</groupName>
+  <size>0</size>
+</org.drools.audit.event.RuleFlowGroupLogEvent>
+<org.drools.audit.event.RuleFlowGroupLogEvent>
+  <type>13</type>
+  <groupName>determinePrice</groupName>
+  <size>0</size>
+</org.drools.audit.event.RuleFlowGroupLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <type>25</type>
+  <processId>com.rhc.drools.test</processId>
+  <processName>dayTraderFlow</processName>
+  <processInstanceId>1</processInstanceId>
+  <nodeId>4</nodeId>
+  <nodeName>Determine Price</nodeName>
+  <nodeInstanceId>2</nodeInstanceId>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <type>27</type>
+  <processId>com.rhc.drools.test</processId>
+  <processName>dayTraderFlow</processName>
+  <processInstanceId>1</processInstanceId>
+  <nodeId>3</nodeId>
+  <nodeName>Determine Action (Buy/Sell)</nodeName>
+  <nodeInstanceId>1</nodeInstanceId>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowGroupLogEvent>
+  <type>14</type>
+  <groupName>determinePrice</groupName>
+  <size>0</size>
+</org.drools.audit.event.RuleFlowGroupLogEvent>
+<org.drools.audit.event.RuleFlowGroupLogEvent>
+  <type>15</type>
+  <groupName>determinePrice</groupName>
+  <size>0</size>
+</org.drools.audit.event.RuleFlowGroupLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <type>26</type>
+  <processId>com.rhc.drools.test</processId>
+  <processName>dayTraderFlow</processName>
+  <processInstanceId>1</processInstanceId>
+  <nodeId>4</nodeId>
+  <nodeName>Determine Price</nodeName>
+  <nodeInstanceId>2</nodeInstanceId>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <type>24</type>
+  <processId>com.rhc.drools.test</processId>
+  <processName>dayTraderFlow</processName>
+  <processInstanceId>1</processInstanceId>
+  <nodeId>2</nodeId>
+  <nodeName>End</nodeName>
+  <nodeInstanceId>3</nodeInstanceId>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <type>26</type>
+  <processId>com.rhc.drools.test</processId>
+  <processName>dayTraderFlow</processName>
+  <processInstanceId>1</processInstanceId>
+  <nodeId>2</nodeId>
+  <nodeName>End</nodeName>
+  <nodeInstanceId>3</nodeInstanceId>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowLogEvent>
+  <type>10</type>
+  <processId>com.rhc.drools.test</processId>
+  <processName>dayTraderFlow</processName>
+  <processInstanceId>1</processInstanceId>
+</org.drools.audit.event.RuleFlowLogEvent>
+<org.drools.audit.event.RuleFlowLogEvent>
+  <type>11</type>
+  <processId>com.rhc.drools.test</processId>
+  <processName>dayTraderFlow</processName>
+  <processInstanceId>1</processInstanceId>
+</org.drools.audit.event.RuleFlowLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <type>27</type>
+  <processId>com.rhc.drools.test</processId>
+  <processName>dayTraderFlow</processName>
+  <processInstanceId>1</processInstanceId>
+  <nodeId>2</nodeId>
+  <nodeName>End</nodeName>
+  <nodeInstanceId>3</nodeInstanceId>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <type>25</type>
+  <processId>com.rhc.drools.test</processId>
+  <processName>dayTraderFlow</processName>
+  <processInstanceId>1</processInstanceId>
+  <nodeId>2</nodeId>
+  <nodeName>End</nodeName>
+  <nodeInstanceId>3</nodeInstanceId>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.RuleFlowNodeLogEvent>
+  <type>27</type>
+  <processId>com.rhc.drools.test</processId>
+  <processName>dayTraderFlow</processName>
+  <processInstanceId>1</processInstanceId>
+  <nodeId>4</nodeId>
+  <nodeName>Determine Price</nodeName>
+  <nodeInstanceId>2</nodeInstanceId>
+</org.drools.audit.event.RuleFlowNodeLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>helloWorld [1]</activationId>
+  <rule>helloWorld</rule>
+  <declarations></declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>helloWorld [1]</activationId>
+  <rule>helloWorld</rule>
+  <declarations></declarations>
+</org.drools.audit.event.ActivationLogEvent>
+</object-stream>
